@@ -3,7 +3,7 @@
 
 // Console.WriteLine(number1 + number2);
 
-int secretNumber = 7;
+int secretNumber = new Random().Next(1, 11);
 int count = 3;
 bool flagWin = false;
 while(count > 0)
